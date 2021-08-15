@@ -1,0 +1,11 @@
+in:
+  type: example
+  hostname: "foo"
+filters:
+  - type: example
+    key: bar
+    value: baz
+# out: {type: stdout}
+out:
+  type: example
+  message: piyo

@@ -1,0 +1,31 @@
+2021-08-14 20:34:31.419 +0900: Embulk v0.9.23
+2021-08-14 20:34:32.808 +0900 [WARN] (main): DEPRECATION: JRuby org.jruby.embed.ScriptingContainer is directly injected.
+2021-08-14 20:34:36.217 +0900 [INFO] (main): Gem's home and path are set by default: "/Users/sikeda/.embulk/lib/gems"
+2021-08-14 20:34:37.809 +0900 [INFO] (main): Started Embulk v0.9.23
+2021-08-14 20:34:37.981 +0900 [INFO] (0001:transaction): Loaded plugin embulk/input/example from a load path
+2021-08-14 20:34:38.015 +0900 [INFO] (0001:transaction): Loaded plugin embulk/output/example from a load path
+2021-08-14 20:34:38.019 +0900 [INFO] (0001:transaction): ExampleOutputPlugin : thread 1 object 954097071...
+2021-08-14 20:34:38.059 +0900 [INFO] (0001:transaction): Loaded plugin embulk/filter/example from a load path
+2021-08-14 20:34:38.079 +0900 [INFO] (0001:transaction): Using local thread executor with max_threads=8 / output tasks 4 = input tasks 1 * 4
+2021-08-14 20:34:38.081 +0900 [INFO] (0001:transaction): ExampleOutputPlugin(transaction) : thread 1 object 954097071...
+2021-08-14 20:34:38.087 +0900 [INFO] (0001:transaction): {done:  0 / 1, running: 0}
+2021-08-14 20:34:38.094 +0900 [INFO] (0014:task-0000): ExampleOutputPlugin : thread 14 object 996549553...
+2021-08-14 20:34:38.098 +0900 [INFO] (0014:task-0000): ExampleOutputPlugin(open) : thread 14 object 996549553...
+2021-08-14 20:34:38.141 +0900 [INFO] (0014:task-0000): ExampleOutputPlugin(open) : thread 14 object 996549553...
+2021-08-14 20:34:38.141 +0900 [INFO] (0014:task-0000): ExampleOutputPlugin(open) : thread 14 object 996549553...
+2021-08-14 20:34:38.142 +0900 [INFO] (0014:task-0000): ExampleOutputPlugin(open) : thread 14 object 996549553...
+piyo : {"hostname":"foo","bar":"baz","file":"file10","col0":10,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file9","col0":9,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file8","col0":8,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file7","col0":7,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file6","col0":6,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file5","col0":5,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file4","col0":4,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file3","col0":3,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file2","col0":2,"col1":10.0}
+piyo : {"hostname":"foo","bar":"baz","file":"file1","col0":1,"col1":10.0}
+2021-08-14 20:34:38.195 +0900 [INFO] (0001:transaction): {done:  1 / 1, running: 0}
+2021-08-14 20:34:38.195 +0900 [INFO] (0001:transaction): Example output finished. Commit reports = [{"records":10}, {"records":10}, {"records":10}, {"records":10}]
+2021-08-14 20:34:38.200 +0900 [INFO] (0001:transaction): ExampleOutputPlugin : thread 1 object 95699736...
+2021-08-14 20:34:38.202 +0900 [INFO] (main): Committed.
+2021-08-14 20:34:38.202 +0900 [INFO] (main): Next config diff: {"in":{},"out":{}}
